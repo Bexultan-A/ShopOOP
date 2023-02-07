@@ -90,6 +90,35 @@ public class ClothesRepository implements IClothesRepository {
 
     @Override
     public Clothing getClothingByID(int id) {
+        Connection con = null;
+        try {
+            con = db.getConnection();
+            String sql = "SELECT id,name,price,color,amount FROM clothes WHERE id=?";
+            PreparedStatement st = con.prepareStatement(sql);
+
+            st.setInt(1,id);
+
+
+            ResultSet rs = st.executeQuery();
+            while (rs.next()) {
+                Clothing clothing = new Clothing(rs.getInt("id"),
+                        rs.getString("name"),
+                        rs.getDouble("price"),
+                        rs.getString("color"),
+                        rs.getInt("amount"));
+                return clothing;
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                con.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        }
         return null;
     }
 

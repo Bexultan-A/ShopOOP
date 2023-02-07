@@ -1,38 +1,60 @@
 package com.company;
 
+import com.company.controllers.CartController;
 import com.company.controllers.ClothesController;
+import com.company.controllers.FilterController;
 import com.company.controllers.StyleController;
+import com.company.entities.Cart;
+import com.company.entities.Clothing;
+import com.company.entities.Filter;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Shop {
     private final ClothesController clothesController;
     private final StyleController styleController;
-    private final Scanner scanner;
+    private final FilterController filterController;
+    private final CartController cartController;
 
-    public Shop(ClothesController clothesController, StyleController styleController) {
+    private final Scanner scanner;
+    private final Filter filter;
+    private final Cart cart;
+    ArrayList<Clothing> cartClothes;
+
+    public Shop(ClothesController clothesController, StyleController styleController, FilterController filterController, CartController cartController) {
         this.clothesController = clothesController;
         this.scanner = new Scanner(System.in);
         this.styleController = styleController;
+        this.filterController = filterController;
+        this.cartController = cartController;
+        this.filter = new Filter(filterController);
+        this.cart = new Cart(cartController);
+        this.cartClothes = new ArrayList<Clothing>();
     }
 
     public void Start() {
         while (true) {
             System.out.println("Welcome to Our Shop\n" +
                     "Select option:\n" +
-                    "1. Get all clothes'\n" +
-                    "2. Create clothing\n" +
-                    "3. Get clothes by Style\n" +
+                    "1. Get all clothes\n" +
+                    "2. Show cart contents\n" +
+                    "3. Get clothes by filter\n" +
+                    "4. Add clothing to the cart\n" +
                     "0. Exit\n");
             try {
                 int option = scanner.nextInt();
                 if (option == 1) {
                     getAllClothesMenu();
                 } else if (option == 2) {
-                    createClothingMenu();
+                    cart.showCart(cartClothes);
                 } else if (option == 3) {
-                    getClothesByStyleMenu();
+                    filter.getClothesByFilterMenu();
+                } else if (option == 4){
+                    addClothingToCartMenu();
                 } else if (option == 0){
                     break;
                 } else {
@@ -86,5 +108,14 @@ public class Shop {
         String styleName = scanner.nextLine();
 
         styleController.getClothesByStyle(styleName);
+    }
+
+    public void addClothingToCartMenu() {
+        System.out.println("Enter the id of the clothing");
+        int id = scanner.nextInt();
+
+        Clothing clothing = clothesController.addClothingToCart(id);
+
+        cartClothes.add(clothing);
     }
 }

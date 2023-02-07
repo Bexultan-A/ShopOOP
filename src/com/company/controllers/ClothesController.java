@@ -25,4 +25,12 @@ public class ClothesController {
             System.out.println(clothing.getId() + " " + clothing.getName() + " " + clothing.getPrice() + " " + clothing.getColor() + " " + clothing.getAmount());
         }
     }
+
+    public Clothing addClothingToCart(int id) {
+        Clothing clothing = repo.getClothingByID(id);
+
+        System.out.println(clothing.getName() + " have been added to your cart");
+
+        return clothing;
+    }
 }
