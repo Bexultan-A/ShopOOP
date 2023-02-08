@@ -1,0 +1,150 @@
+1,ClothesShop,Summer,Casual,Male,Adult,Top,Jacket,20000,Black,6
+2,ClothesShop,Summer,Casual,Male,Adult,Bottom,Jeans,30000,White,23
+4,ClothesShop,Winter,Casual,Female,Adult,Top,Coat,50000,Yellow,45
+3,ClothesShop,Summer,Classic,Male,Adult,Suit,Suit,100000,Red,8
+5,ClothesShop,DemiSeason,Classic,Male,Adult,Suit,Suit,50000,Navy Blue ,21
+6,ClothesShop,Summer,Casual,Female,Adult,Top,T - shirt,4000,Beige,4
+7,ClothesShop,Winter,Sport,Female,Teenager,Bottom,Trousers,50000,Purple,1
+8,ClothesShop,Summer,Casual,Female,Teenager,Bottom,Skirt ,10000,Green,7
+9,ClothesShop,Summer,Casual,Female,Teenager,Bottom,Skirt ,4500,Brown ,5
+10,ClothesShop,Summer,Classic,Female,Teenager,Bottom,Skirt ,50000,Sky Blue,9
+11,ClothesShop,Summer,Classic,Female,Teenager,Bottom,Skirt ,70000,Blue,3
+12,ClothesShop,Summer,Casual,Female,Teenager,Bottom,Skirt ,6200,Orange,12
+13,ClothesShop,Summer,Casual,Female,Teenager,Bottom,Skirt ,5200,Pink,4
+14,ClothesShop,Summer,Casual,Female,Teenager,Bottom,Skirt ,6220,Olive,15
+15,ClothesShop,Summer,Casual,Female,Teenager,Bottom,Skirt ,4500,Gray,17
+16,ClothesShop,DemiSeason,Casual,Female,Adult,Bottom,Skirt ,10000,Tan,17
+17,ClothesShop,DemiSeason,Casual,Female,Adult,Bottom,Skirt ,50000,Mustard,4
+18,ClothesShop,DemiSeason,Casual,Female,Adult,Bottom,Skirt ,4000,Indigo ,5
+19,ClothesShop,DemiSeason,Classic,Female,Adult,Bottom,Jeans,50000,Black,3
+20,ClothesShop,DemiSeason,Classic,Female,Adult,Bottom,Jeans,10000,White,24
+21,ClothesShop,DemiSeason,Classic,Female,Adult,Bottom,Jeans,4500,Yellow,23
+22,ClothesShop,DemiSeason,Classic,Female,Teenager,Bottom,Jeans,50000,Red,45
+23,ClothesShop,DemiSeason,Casual,Female,Teenager,Bottom,Jeans,70000,Navy Blue ,8
+24,ClothesShop,DemiSeason,Casual,Female,Teenager,Bottom,Jeans,50000,Beige,21
+25,ClothesShop,DemiSeason,Casual,Female,Teenager,Bottom,Jeans,70000,Purple,4
+26,ClothesShop,DemiSeason,Casual,Female,Teenager,Bottom,Jeans,6200,Green,1
+27,ClothesShop,DemiSeason,Casual,Female,Teenager,Bottom,Jeans,5200,Brown ,7
+28,ClothesShop,DemiSeason,Casual,Female,Teenager,Bottom,Jeans,6220,Sky Blue,5
+29,ClothesShop,DemiSeason,Casual,Female,Teenager,Bottom,Jeans,4500,Blue,9
+30,ClothesShop,DemiSeason,Casual,Female,Adult,Bottom,Dress,10000,Purple,3
+31,ClothesShop,Summer,Classic,Female,Adult,Bottom,Dress,20000,Green,12
+32,ClothesShop,Summer,Classic,Female,Adult,Bottom,Dress,40000,Brown ,4
+33,ClothesShop,Summer,Classic,Female,Adult,Bottom,Dress,18000,Sky Blue,15
+34,ClothesShop,DemiSeason,Classic,Female,Adult,Bottom,Dress,17000,Blue,17
+35,ClothesShop,DemiSeason,Casual,Female,Adult,Bottom,Dress,36000,Orange,17
+36,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Dress,9500,Pink,4
+37,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Dress,10500,Olive,5
+38,ClothesShop,DemiSeason,Classic,Female,Teenager,Top,Dress,11500,Gray,3
+39,ClothesShop,DemiSeason,Classic,Female,Teenager,Top,Bra,7000,Black,24
+40,ClothesShop,DemiSeason,Sport,Female,Adult,Top,Bra,7000,White,42
+41,ClothesShop,DemiSeason,Sport,Female,Adult,Top,Bra,7000,Yellow,27
+42,ClothesShop,DemiSeason,Sport,Female,Adult,Top,Bra,7000,Red,1
+43,ClothesShop,DemiSeason,Sport,Female,Adult,Top,Bra,8000,Navy Blue ,25
+44,ClothesShop,DemiSeason,Sport,Female,Adult,Top,Bra,8000,Beige,12
+45,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Jacket,15000,Purple,10
+46,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Jacket,15000,Green,4
+47,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Jacket,15000,Brown ,6
+48,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Jacket,15000,Sky Blue,23
+49,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Jacket,12000,Black,45
+50,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Blouse,12000,White,8
+51,ClothesShop,DemiSeason,Classic,Female,Adult,Top,Blouse,12000,Yellow,21
+52,ClothesShop,DemiSeason,Classic,Female,Kids,Top,Blouse,12000,Red,4
+53,ClothesShop,DemiSeason,Classic,Female,Kids,Top,Blouse,10000,Navy Blue ,1
+54,ClothesShop,DemiSeason,Classic,Female,Kids,Top,Blouse,10000,Beige,7
+55,ClothesShop,DemiSeason,Classic,Female,Kids,Top,Blouse,10000,Purple,5
+56,ClothesShop,DemiSeason,Casual,Female,Kids,Top,T - shirt,7000,Green,9
+57,ClothesShop,Summer,Casual,Female,Kids,Top,T - shirt,7000,Brown ,3
+58,ClothesShop,Summer,Casual,Female,Kids,Top,T - shirt,8000,Pink,12
+59,ClothesShop,Summer,Casual,Female,Kids,Top,T - shirt,8000,White,4
+60,ClothesShop,Summer,Casual,Female,Kids,Top,T - shirt,8000,Navy Blue ,15
+61,ClothesShop,Summer,Casual,Female,Adult,Top,T - shirt,8000,Beige,17
+62,ClothesShop,Summer,Casual,Female,Adult,Top,T - shirt,8000,Sky Blue,18
+63,ClothesShop,Winter,Casual,Female,Adult,Top,Sweater,30000,Red,49
+64,ClothesShop,Winter,Casual,Female,Adult,Top,Sweater,30000,Purple,26
+65,ClothesShop,Winter,Casual,Female,Adult,Top,Sweater,30000,Blue,35
+66,ClothesShop,Winter,Casual,Female,Adult,Top,Sweater,25000,Black,50
+67,ClothesShop,Winter,Casual,Female,Adult,Top,Sweater,25000,White,50
+68,ClothesShop,DemiSeason,Classic,Female,Adult,Suit,Dress,25000,Brown ,54
+69,ClothesShop,DemiSeason,Classic,Female,Adult,Suit,Dress,25000,Black,54
+70,ClothesShop,DemiSeason,Classic,Female,Adult,Suit,Dress,25000,Blue,50
+71,ClothesShop,DemiSeason,Classic,Female,Adult,Suit,Dress,15000,Black,48
+72,ClothesShop,DemiSeason,Classic,Female,Adult,Suit,Dress,15000,Yellow,44
+73,ClothesShop,DemiSeason,Classic,Female,Adult,Suit,Dress,15000,Green,40
+74,ClothesShop,DemiSeason,Classic,Female,Adult,Suit,Dress,15000,Navy Blue ,34
+75,ClothesShop,DemiSeason,Classic,Male,Adult,Bottom,Trousers,25000,White,45
+76,ClothesShop,DemiSeason,Classic,Male,Adult,Bottom,Trousers,25000,Yellow,8
+77,ClothesShop,DemiSeason,Classic,Male,Adult,Bottom,Trousers,25000,Red,21
+78,ClothesShop,DemiSeason,Classic,Male,Adult,Bottom,Trousers,25000,Navy Blue ,4
+79,ClothesShop,DemiSeason,Classic,Male,Adult,Bottom,Trousers,25000,Beige,1
+80,ClothesShop,DemiSeason,Classic,Male,Teenager,Bottom,Trousers,30000,Purple,7
+81,ClothesShop,DemiSeason,Classic,Male,Teenager,Bottom,Trousers,30000,Green,5
+82,ClothesShop,DemiSeason,Classic,Male,Teenager,Bottom,Trousers,30000,Brown ,9
+83,ClothesShop,DemiSeason,Classic,Male,Teenager,Bottom,Trousers,30000,Sky Blue,3
+84,ClothesShop,DemiSeason,Classic,Male,Teenager,Bottom,Trousers,30000,Blue,12
+85,ClothesShop,DemiSeason,Classic,Male,Teenager,Bottom,Trousers,30000,Orange,4
+86,ClothesShop,DemiSeason,Sport,Male,Teenager,Bottom,Pants,15000,Pink,15
+87,ClothesShop,DemiSeason,Sport,Male,Teenager,Bottom,Pants,15000,Olive,17
+88,ClothesShop,DemiSeason,Sport,Male,Adult,Bottom,Pants,15000,Gray,18
+89,ClothesShop,DemiSeason,Sport,Male,Adult,Bottom,Pants,15000,Tan,49
+90,ClothesShop,DemiSeason,Sport,Male,Adult,Bottom,Pants,15000,Mustard,26
+91,ClothesShop,DemiSeason,Sport,Male,Adult,Bottom,Pants,15000,Indigo ,35
+92,ClothesShop,DemiSeason,Sport,Male,Adult,Bottom,Pants,15000,White,5
+93,ClothesShop,DemiSeason,Sport,Male,Adult,Bottom,Pants,15000,Yellow,18
+94,ClothesShop,Summer,Casual,Male,Adult,Bottom,Jeans,12000,Red,19
+95,ClothesShop,Summer,Casual,Male,Adult,Bottom,Jeans,12000,Navy Blue ,24
+96,ClothesShop,Summer,Casual,Male,Adult,Bottom,Jeans,12000,Beige,17
+97,ClothesShop,Summer,Casual,Male,Adult,Bottom,Jeans,12000,Purple,16
+98,ClothesShop,Summer,Casual,Male,Adult,Bottom,Jeans,12000,Green,13
+99,ClothesShop,Summer,Casual,Male,Teenager,Bottom,Jeans,12000,Brown ,11
+100,ClothesShop,Summer,Casual,Male,Teenager,Bottom,Shorts,12000,Sky Blue,24
+101,ClothesShop,Summer,Casual,Male,Teenager,Bottom,Shorts,12000,Blue,10
+102,ClothesShop,Summer,Casual,Male,Teenager,Bottom,Shorts,12000,Orange,20
+103,ClothesShop,Summer,Casual,Male,Teenager,Bottom,Shorts,12000,Pink,21
+104,ClothesShop,Summer,Casual,Male,Teenager,Bottom,Shorts,12000,Olive,31
+105,ClothesShop,Summer,Casual,Male,Teenager,Bottom,Shorts,12000,Gray,30
+106,ClothesShop,Summer,Casual,Male,Adult,Top,T - shirt,8000,White,5
+107,ClothesShop,Summer,Casual,Male,Adult,Top,T - shirt,5000,Yellow,9
+108,ClothesShop,Summer,Casual,Male,Adult,Top,T - shirt,7000,Red,3
+109,ClothesShop,Summer,Casual,Male,Adult,Top,T - shirt,6200,Navy Blue ,12
+110,ClothesShop,Winter,Casual,Male,Adult,Top,Hoody,25000,Beige,4
+111,ClothesShop,Winter,Casual,Male,Adult,Top,Hoody,45000,Purple,15
+112,ClothesShop,Winter,Casual,Male,Adult,Top,Hoody,67000,Green,17
+113,ClothesShop,Winter,Casual,Male,Teenager,Top,Hoody,36000,Brown ,18
+114,ClothesShop,Winter,Casual,Male,Teenager,Top,Hoody,25000,Sky Blue,49
+115,ClothesShop,Winter,Casual,Male,Teenager,Top,Sweater,35000,Blue,26
+116,ClothesShop,Winter,Casual,Male,Teenager,Top,Sweater,35700,Orange,35
+117,ClothesShop,Winter,Casual,Male,Teenager,Top,Sweater,37500,Pink,5
+118,ClothesShop,Winter,Casual,Male,Adult,Top,Sweater,46000,Olive,18
+119,ClothesShop,Winter,Casual,Male,Adult,Top,Sweater,89000,Gray,19
+120,ClothesShop,DemiSeason,Classic,Male,Teenager,Top,Dress shirt,10000,Tan,24
+121,ClothesShop,DemiSeason,Classic,Male,Teenager,Top,Dress shirt,7800,Mustard,17
+122,ClothesShop,DemiSeason,Classic,Male,Adult,Top,Dress shirt,6200,Indigo ,16
+123,ClothesShop,DemiSeason,Classic,Male,Adult,Top,Dress shirt,5200,Black,13
+124,ClothesShop,DemiSeason,Classic,Male,Adult,Top,Dress shirt,6220,White,11
+125,ClothesShop,DemiSeason,Classic,Male,Adult,Top,Dress shirt,25500,Yellow,24
+126,ClothesShop,Summer,Sport,Male,Adult,Top,Tank top,2500,Red,10
+127,ClothesShop,Summer,Sport,Male,Adult,Top,Tank top,25000,Navy Blue ,20
+128,ClothesShop,Summer,Sport,Male,Adult,Top,Tank top,35000,Beige,21
+129,ClothesShop,Summer,Sport,Male,Adult,Top,Tank top,35700,Purple,31
+130,ClothesShop,Summer,Sport,Male,Adult,Top,Tank top,21000,Green,30
+131,ClothesShop,Summer,Sport,Male,Adult,Top,Tank top,20000,Brown ,12
+132,ClothesShop,DemiSeason,Casual,Male,Adult,Top,Sweatshirt,15100,Sky Blue,4
+133,ClothesShop,DemiSeason,Casual,Male,Kids,Top,Sweatshirt,14200,Blue,15
+134,ClothesShop,DemiSeason,Casual,Male,Kids,Top,Sweatshirt,30000,Orange,17
+135,ClothesShop,DemiSeason,Casual,Male,Kids,Top,Sweatshirt,10000,Pink,17
+136,ClothesShop,DemiSeason,Casual,Male,Adult,Top,Sweatshirt,12000,Olive,4
+137,ClothesShop,DemiSeason,Casual,Male,Adult,Top,Sweatshirt,15000,Gray,5
+138,ClothesShop,DemiSeason,Casual,Male,Adult,Top,Sweatshirt,27000,Tan,3
+139,ClothesShop,DemiSeason,Casual,Male,Adult,Top,Sweatshirt,25000,Mustard,24
+140,ClothesShop,DemiSeason,Casual,Male,Adult,Top,Sweatshirt,18000,Indigo ,42
+141,ClothesShop,Summer,Casual,Male,Teenager,Top,Polo shirt,18000,Black,27
+142,ClothesShop,Summer,Casual,Male,Teenager,Top,Polo shirt,20000,Purple,1
+143,ClothesShop,Summer,Casual,Male,Adult,Top,Polo shirt,18000,Blue,25
+144,ClothesShop,Summer,Casual,Male,Adult,Top,Polo shirt,17000,Black,12
+145,ClothesShop,Summer,Casual,Male,Kids,Top,Polo shirt,19000,White,10
+146,ClothesShop,Summer,Casual,Male,Kids,Top,Polo shirt,10000,Brown ,4
+147,ClothesShop,Summer,Casual,Male,Kids,Top,Polo shirt,21000,Black,6
+148,ClothesShop,DemiSeason,Classic,Male,Adult,Suit,Suit,250000,Blue,23
+149,ClothesShop,DemiSeason,Classic,Male,Adult,Suit,Suit,180000,Black,45
+150,ClothesShop,DemiSeason,Classic,Male,Adult,Suit,Suit,190000,Yellow,8
