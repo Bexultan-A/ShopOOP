@@ -37,8 +37,9 @@ public class Shop {
     }
 
     public void Start() {
+        System.out.print("Welcome to Our Shop");
         while (true) {
-            System.out.println("Welcome to Our Shop\n" +
+            System.out.println("\n" +
                     "Select option:\n" +
                     "1. Get all clothes\n" +
                     "2. Show cart contents\n" +
@@ -67,7 +68,7 @@ public class Shop {
                 System.out.println(e.getMessage());
             }
 
-            System.out.println("---------------------------------");
+            System.out.println("------------------------------------------------------------------------");
         }
     }
 

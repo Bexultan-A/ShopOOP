@@ -21,15 +21,22 @@ public class ClothesController {
 
     public void getAllClothes() {
         List<Clothing> clothes = repo.getAllClothes();
+        System.out.println("------------------------------------------------------------------------");
+        System.out.printf("| %-10s| %-15s| %-15s| %-15s| %-10s%n", "id", "name", "price", "color", "amount");
         for (Clothing clothing:clothes) {
-            System.out.println(clothing.getId() + " " + clothing.getName() + " " + clothing.getPrice() + " " + clothing.getColor() + " " + clothing.getAmount());
+            System.out.printf("| %-10s", clothing.getId());
+            System.out.printf("| %-15s", clothing.getName());
+            System.out.printf("| %-15s", clothing.getPrice());
+            System.out.printf("| %-15s", clothing.getColor());
+            System.out.printf("| %-10s", clothing.getAmount());
+            System.out.println();
         }
     }
 
     public Clothing addClothingToCart(int id) {
         Clothing clothing = repo.getClothingByID(id);
 
-        System.out.println(clothing.getName() + " have been added to your cart");
+        System.out.println(clothing.getName() + " has been added to your cart");
 
         return clothing;
     }

@@ -45,7 +45,7 @@ public class Filter {
                 } else if (season == 2) {
                     filterName.add("Winter");
                 } else if (season == 3) {
-                    filterName.add("Demiseason");
+                    filterName.add("DemiSeason");
                 }
             } else if (option == 2) {
                 filters.add("StyleName");
