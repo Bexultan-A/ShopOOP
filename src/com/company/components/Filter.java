@@ -1,4 +1,4 @@
-package com.company.entities;
+package com.company.components;
 
 import com.company.controllers.FilterController;
 
@@ -71,20 +71,20 @@ public class Filter {
                     filterName.add("Male");
                 } else if (gender == 2) {
                     filterName.add("Female");
-                } else if (option == 4) {
-                    filters.add("AgeName");
-                    System.out.println("Select age\n" +
-                            "1. Adult\n" +
-                            "2. Kid\n" +
-                            "3. Teenager\n");
-                    int age = scanner.nextInt();
-                    if (age == 1) {
-                        filterName.add("Adult");
-                    } else if (age == 2) {
-                        filterName.add("Kid");
-                    } else if (age == 3) {
-                        filterName.add("Teenager");
-                    }
+                }
+            } else if (option == 4) {
+                filters.add("AgeName");
+                System.out.println("Select age\n" +
+                        "1. Adult\n" +
+                        "2. Kid\n" +
+                        "3. Teenager\n");
+                int age = scanner.nextInt();
+                if (age == 1) {
+                    filterName.add("Adult");
+                } else if (age == 2) {
+                    filterName.add("Kid");
+                } else if (age == 3) {
+                    filterName.add("Teenager");
                 }
             } else if (option == 5) {
                 filters.add("TypeName");

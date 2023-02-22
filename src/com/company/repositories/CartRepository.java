@@ -31,6 +31,9 @@ public class CartRepository implements ICartRepository {
             while (rs.next()) {
                 amount = rs.getInt("amount");
             }
+            if (amount <= 0) {
+                return false;
+            }
 
             sql = "UPDATE clothes SET amount=? WHERE id=?";
             st = con.prepareStatement(sql);

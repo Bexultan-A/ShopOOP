@@ -1,6 +1,7 @@
-package com.company.entities;
+package com.company.components;
 
 import com.company.controllers.CartController;
+import com.company.entities.Clothing;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -21,8 +22,14 @@ public class Cart {
 
         while (true) {
             System.out.println("Cart contents:");
-            for (Clothing clothing : clothes) {
-                System.out.println(clothing.getId() + " " + clothing.getName() + " " + clothing.getPrice() + " " + clothing.getColor() + " " + clothing.getAmount());
+            System.out.printf("%-10s%-15s%-15s%-15s%-10s%n", "id", "name", "price", "color", "amount");
+            for (Clothing clothing:clothes) {
+                System.out.printf("%-10s", clothing.getId());
+                System.out.printf("%-15s", clothing.getName());
+                System.out.printf("%-15s", clothing.getPrice());
+                System.out.printf("%-15s", clothing.getColor());
+                System.out.printf("%-10s", clothing.getAmount());
+                System.out.println();
             }
             System.out.println();
             System.out.println("Select option\n" +
@@ -32,22 +39,9 @@ public class Cart {
                     "4. Go back\n");
             int option = scanner.nextInt();
             if (option == 1) {
-                for (Clothing clothing : clothes) {
-                    String response = cartController.buyClothes(clothing);
-                    System.out.println(response);
-                    try {
-                        sleep(200);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
-                }
+                buyClothesMenu(clothes);
 
-                for (int i = 0; i < clothes.size(); i++) {
-                    clothes.remove(i);
-                }
-                for (int i = 0; i < clothes.size(); i++) {
-                    clothes.remove(i);
-                }
+                clearCartMenu(clothes);
 
             } else if (option == 2) {
                 System.out.println("Enter id of the clothing");
@@ -58,16 +52,31 @@ public class Cart {
                     }
                 }
             } else if (option == 3) {
-                for (int i = 0; i < clothes.size(); i++) {
-                    clothes.remove(i);
-                }
-                for (int i = 0; i < clothes.size(); i++) {
-                    clothes.remove(i);
-                }
+                clearCartMenu(clothes);
             } else if (option == 4) {
                 break;
             }
         }
-
     }
+    public void buyClothesMenu(ArrayList<Clothing> clothes) {
+        for (Clothing clothing : clothes) {
+            String response = cartController.buyClothes(clothing);
+            System.out.println(response);
+            try {
+                sleep(200);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    public void clearCartMenu(ArrayList<Clothing> clothes) {
+        for (int i = 0; i < clothes.size(); i++) {
+            clothes.remove(i);
+        }
+        for (int i = 0; i < clothes.size(); i++) {
+            clothes.remove(i);
+        }
+    }
+
 }

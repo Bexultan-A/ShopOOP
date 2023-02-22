@@ -3,20 +3,16 @@ package com.company;
 import com.company.controllers.CartController;
 import com.company.controllers.ClothesController;
 import com.company.controllers.FilterController;
-import com.company.controllers.StyleController;
-import com.company.entities.Cart;
+import com.company.components.Cart;
 import com.company.entities.Clothing;
-import com.company.entities.Filter;
+import com.company.components.Filter;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Shop {
     private final ClothesController clothesController;
-    private final StyleController styleController;
     private final FilterController filterController;
     private final CartController cartController;
 
@@ -25,10 +21,9 @@ public class Shop {
     private final Cart cart;
     ArrayList<Clothing> cartClothes;
 
-    public Shop(ClothesController clothesController, StyleController styleController, FilterController filterController, CartController cartController) {
+    public Shop(ClothesController clothesController, FilterController filterController, CartController cartController) {
         this.clothesController = clothesController;
         this.scanner = new Scanner(System.in);
-        this.styleController = styleController;
         this.filterController = filterController;
         this.cartController = cartController;
         this.filter = new Filter(filterController);
@@ -101,14 +96,6 @@ public class Shop {
 
         String response = clothesController.createClothing(shopName,seasonName,styleName,genderName,ageName,typeName,name,price,color,amount);
         System.out.println(response);
-    }
-
-    public void getClothesByStyleMenu() {
-        System.out.println("Please enter style name");
-        scanner.nextLine();
-        String styleName = scanner.nextLine();
-
-        styleController.getClothesByStyle(styleName);
     }
 
     public void addClothingToCartMenu() {
